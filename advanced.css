@@ -1,0 +1,300 @@
+body,
+input,
+button {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.searchBox {
+    text-align: center;
+}
+
+.navLinks {
+    float: right;
+    font-size: 13px;
+    padding-top: 14px;
+}
+
+.googleLogo {
+    text-align: center;
+}
+
+.googleSubmit {
+    padding: 5px;
+}
+
+#imageLink {
+    margin-right: 2px;
+    margin-left: 20px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    transition: text-decoration 0.05s ease-in-out;
+    position: relative;
+    top: -35px;
+}
+
+#advancedLink {
+    margin-right: 20px;
+    margin-left: 2px;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    transition: text-decoration 0.05s ease-in-out;
+    position: relative;
+    top: -35px;
+}
+
+#imageLink:hover {
+    text-decoration: underline;
+}
+#advancedLink:hover {
+    text-decoration: underline;
+}
+.logoBox {
+    margin-top: 91px;
+}
+
+.searchBar {
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    transition: box-shadow 0.05s ease-in-out;
+}
+.searchBar:hover, .searchBar:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.bar {
+    margin-top: 7px;
+    margin-bottom: 13px;
+    width: 638px;
+    max-width: 584px;
+}
+
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    transition: box-shadow 0.05s ease-in-out;
+    transition: border-color 0.05s ease-in-out;
+}
+.button:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+.cs50Cat {
+    height: 32px;
+    width: 32px;
+    border-radius: 80%;
+    position: relative;
+    top: -30px;
+}
+.userPicture {
+    float: right;
+    font-size: 13px;
+    padding-top: 0px;
+    margin-right: 10px;
+}
+.googleApps {
+    float: right;
+    font-size: 13px;
+    padding-top: 10px;
+    margin-right: 20px;
+    color: #70757a;
+    position: relative;
+    top: -35px;
+}
+.testTube {
+    float: right;
+    font-size: 13px;
+    padding-top: 10px;        
+    margin-right: 28.5px;
+    /*color: #d2d2d2;*/
+    color: #dadce0;
+    position: relative;
+    top: -35px;
+}
+i {
+    position: relative;
+    left: -270px;
+    top: 39px;
+    z-index: 5;
+    color: #70757a;
+}
+
+.imagesText {
+    color: #4285f4;
+    font: 16px / 16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    left: 879px;
+    top: 222.5px;
+    white-space: nowrap;
+}
+.voiceSearch {
+    height: 24px;
+    width: 24px;
+    z-index: 5;
+    position: relative;
+    left: 237px;
+    top: -118px;
+}
+.imageSearch {
+    height: 24px;
+    width: 24px;
+    z-index: 5;
+    position: relative;
+    left: 249px;
+    top: -118px;
+}
+.searchButton {
+    height: 1px;
+    width: 1px;
+    background-color: white;
+    border: none;
+}
+#searchIcon {
+    color: #4285f4;
+    position: relative;
+    left: 230px;
+    top: -56px;
+}
+.homeButton {
+    height: 24px;
+    width: 73px;
+    margin-top: 14px;
+    margin-left: 12px;
+}
+.advancedSearch {
+    color: #d93025;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 37px;
+}
+.line {
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 25px;
+}
+.heading {
+    font-size: 16px;
+    margin-left: 37px;
+    position: relative;
+    top: 46px;
+    color: #333
+}
+.text1 {
+    font-size: 13px;
+    margin-left: 37px;
+    position: relative;
+    top: 67px;
+    color: #333
+}
+.box1 {
+    position: relative;
+    top: 67px;
+    margin-left: 91px;
+    width: 560px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+}
+.box1:focus, .box2:focus, .box3:focus, .box4:focus {
+    outline-color: #4285f4;
+    border-width: 1px;
+}
+.text2 {
+    font-size: 13px;
+    margin-left: 37px;
+    position: relative;
+    top: 87px;
+    color: #333
+}
+.box2 {
+    position: relative;
+    top: 87px;
+    margin-left: 31px;
+    width: 560px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+}
+.text3 {
+    font-size: 13px;
+    margin-left: 37px;
+    position: relative;
+    top: 107px;
+    color: #333
+}
+.box3 {
+    position: relative;
+    top: 107px;
+    margin-left: 67px;
+    width: 560px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+}
+.text4 {
+    font-size: 13px;
+    margin-left: 37px;
+    position: relative;
+    top: 127px;
+    color: #333
+}
+.box4 {
+    position: relative;
+    top: 127px;
+    margin-left: 59px;
+    width: 560px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    transition: border-color 0.05s ease-in-out;
+}
+.advancedButton {
+    position: relative;
+    top: 160px;
+    left: 676px;
+    color: #fff;
+    box-shadow: none;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 16px;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0;
+    padding: 0 8px;
+}
